@@ -168,8 +168,16 @@ function pilihSubMateri(id, index){
     tmpPermainan = materi.permainan[index].nama_permainan;
 
     let instruksiJoin = materi.permainan[index].instruksi.join(' ');
+    if(instruksiJoin.length <= 0){
+        instruksiJoin = "Ikuti aba-aba dan arahan dari Guru."
+    }
     document.getElementById('teksInstruksi').innerText = instruksiJoin;
-    document.getElementById('teksTujuan').innerText = materi.permainan[index].tujuan;
+
+    let tmpTujuan = materi.permainan[index].tujuan;
+    if(tmpTujuan.length <= 0){
+        tmpTujuan = `Tujuan pembelajaran dari permainan adalah melakukan latihan gerak manipulatif "${materi.nama_materi}."`;
+    }
+    document.getElementById('teksTujuan').innerText = tmpTujuan;
     document.getElementById('judulVideoMateri').innerText = "Video " + tmpPermainan;
     // untuk langkah permainan
     let tmpLangkah = '';
