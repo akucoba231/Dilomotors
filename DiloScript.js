@@ -12,20 +12,21 @@ try {
 } catch(e) { localStorage.removeItem('diloPenilaian'); }
 
 // MATERI LOKOMOTOR
-const dataMateri = [
-    { id_materi: 'L1', nama_materi: 'Walking', instruksi: 'Langkahkan kaki secara perlahan memindahkan tubuh ke depan. Selalu ada satu kaki yang menyentuh tanah.', tujuan: 'Siswa mampu melakukan gerakan jalan lurus dengan postur tubuh yang benar.', video: [{judul: 'Jalan Lurus ke Depan'}, {judul: 'Jalan Mundur'}, {judul: 'Jalan Menyamping'}] },
-    { id_materi: 'L2', nama_materi: 'Running', instruksi: 'Melangkahlah dengan cepat dimana ada momen kedua kaki melayang sesaat di udara.', tujuan: 'Siswa dapat berlari dengan ritme, ayunan tangan, dan kecepatan yang sesuai.', video: [{judul: 'Lari Jarak Pendek'}, {judul: 'Lari Zig-zag melewati Rintangan'}, {judul: 'Permainan Lari Estafet'}] },
-    { id_materi: 'L3', nama_materi: 'Jumping', instruksi: 'Gunakan tolakan satu atau dua kaki untuk mendorong tubuh ke udara, mendaratlah dengan lutut mengeper.', tujuan: 'Siswa mampu melatih kekuatan tolakan dan keseimbangan saat mendarat.', video: [{judul: 'Loncat Katak'}, {judul: 'Meloncat Melewati Kotak'}, {judul: 'Lompat Tali Sederhana'}] },
-    { id_materi: 'L4', nama_materi: 'Sliding', instruksi: 'Melangkahlah menyamping dengan satu kaki sebagai pemimpin gerakan dan kaki lainnya mengikuti.', tujuan: 'Siswa mampu bergerak menyamping dengan cepat dan seimbang.', video: [{judul: 'Slide Kanan dan Kiri'}, {judul: 'Permainan Cermin Berpasangan'}, {judul: 'Slide Menghindari Bola'}] },
-    { id_materi: 'L5', nama_materi: 'Galloping', instruksi: 'Langkahkan satu kaki ke depan, lalu kaki belakang ditarik menyusul secara cepat seperti kuda berlari.', tujuan: 'Siswa dapat memadukan ritme langkah panjang dan pendek ke arah depan.', video: [{judul: 'Latihan Gallop Bebas'}, {judul: 'Gallop Berpasangan'}, {judul: 'Lomba Mencongklang'}] },
-    { id_materi: 'L6', nama_materi: 'Leaping', instruksi: 'Lakukan lompatan memanjang dengan menolak menggunakan satu kaki dan mendarat dengan kaki yang berbeda.', tujuan: 'Siswa mampu melewati jarak atau rintangan lebar dengan lompatan panjang.', video: [{judul: 'Leap Melewati Garis'}, {judul: 'Leap Rintangan Kardus'}, {judul: 'Rangkaian Lari dan Leap'}] }
-];
+// const dataMateri = [
+//     { id_materi: 'L1', nama_materi: 'Walking', instruksi: 'Langkahkan kaki secara perlahan memindahkan tubuh ke depan. Selalu ada satu kaki yang menyentuh tanah.', tujuan: 'Siswa mampu melakukan gerakan jalan lurus dengan postur tubuh yang benar.', video: [{judul: 'Jalan Lurus ke Depan'}, {judul: 'Jalan Mundur'}, {judul: 'Jalan Menyamping'}] },
+//     { id_materi: 'L2', nama_materi: 'Running', instruksi: 'Melangkahlah dengan cepat dimana ada momen kedua kaki melayang sesaat di udara.', tujuan: 'Siswa dapat berlari dengan ritme, ayunan tangan, dan kecepatan yang sesuai.', video: [{judul: 'Lari Jarak Pendek'}, {judul: 'Lari Zig-zag melewati Rintangan'}, {judul: 'Permainan Lari Estafet'}] },
+//     { id_materi: 'L3', nama_materi: 'Jumping', instruksi: 'Gunakan tolakan satu atau dua kaki untuk mendorong tubuh ke udara, mendaratlah dengan lutut mengeper.', tujuan: 'Siswa mampu melatih kekuatan tolakan dan keseimbangan saat mendarat.', video: [{judul: 'Loncat Katak'}, {judul: 'Meloncat Melewati Kotak'}, {judul: 'Lompat Tali Sederhana'}] },
+//     { id_materi: 'L4', nama_materi: 'Sliding', instruksi: 'Melangkahlah menyamping dengan satu kaki sebagai pemimpin gerakan dan kaki lainnya mengikuti.', tujuan: 'Siswa mampu bergerak menyamping dengan cepat dan seimbang.', video: [{judul: 'Slide Kanan dan Kiri'}, {judul: 'Permainan Cermin Berpasangan'}, {judul: 'Slide Menghindari Bola'}] },
+//     { id_materi: 'L5', nama_materi: 'Galloping', instruksi: 'Langkahkan satu kaki ke depan, lalu kaki belakang ditarik menyusul secara cepat seperti kuda berlari.', tujuan: 'Siswa dapat memadukan ritme langkah panjang dan pendek ke arah depan.', video: [{judul: 'Latihan Gallop Bebas'}, {judul: 'Gallop Berpasangan'}, {judul: 'Lomba Mencongklang'}] },
+//     { id_materi: 'L6', nama_materi: 'Leaping', instruksi: 'Lakukan lompatan memanjang dengan menolak menggunakan satu kaki dan mendarat dengan kaki yang berbeda.', tujuan: 'Siswa mampu melewati jarak atau rintangan lebar dengan lompatan panjang.', video: [{judul: 'Leap Melewati Garis'}, {judul: 'Leap Rintangan Kardus'}, {judul: 'Rangkaian Lari dan Leap'}] }
+// ];
 
 let currentMateriId = null;
 let tempAbsen = {}; 
 let tempDinilaiSesiIni = {}; // Kunci sesi agar tidak dobel klik
 let tempSiswaAktifId = null; 
 let tempUmpanBalikAktif = null;
+let tmpPermainan = null;
 
 // Fungsi untuk mendapatkan Waktu Spesifik
 function getWaktuSekarang() {
@@ -147,11 +148,39 @@ function pilihMateri(id) {
     tempDinilaiSesiIni = {}; 
     
     const materi = dataMateri.find(m => m.id_materi === id);
-    document.getElementById('teksInstruksi').innerText = materi.instruksi;
-    document.getElementById('teksTujuan').innerText = materi.tujuan;
-    document.getElementById('judulVideoMateri').innerText = "Video " + materi.nama_materi;
+    // buat halaman baru untuk render sub materi (opsi permainan)
+    let subMateri = document.getElementById('opsiPermainan');
+    subMateri.innerHTML = "";
+
+    materi.permainan.forEach((sub,index) => {
+        subMateri.innerHTML += `
+        <button class="btn-opsi" type="button" onclick="pilihSubMateri('${id}', ${index})">${sub.nama_permainan}</button>
+        `;  
+    })
+
+    nav('page-permainan');
+
+}
+
+function pilihSubMateri(id, index){
+    const materi = dataMateri.find(m => m.id_materi === id);
+
+    tmpPermainan = materi.permainan[index].nama_permainan;
+
+    let instruksiJoin = materi.permainan[index].instruksi.join(' ');
+    document.getElementById('teksInstruksi').innerText = instruksiJoin;
+    document.getElementById('teksTujuan').innerText = materi.permainan[index].tujuan;
+    document.getElementById('judulVideoMateri').innerText = "Video " + tmpPermainan;
+    // untuk langkah permainan
+    let tmpLangkah = '';
+    materi.permainan[index].langkah.forEach((desk,index) => {
+        tmpLangkah += `<p class="item-langkah">${index+1}. ${desk}</p>`;
+    }) //array
+
+    document.getElementById('langkahMateri').innerHTML = tmpLangkah;
+
     let htmlVideo = '';
-    materi.video.forEach((v, i) => {
+    materi.permainan[index].video.forEach((v, i) => {
         htmlVideo += `<div class="content-box"><p style="font-weight:900; color:#C62828; margin-top:0;">🎥 Video ${i+1}: ${v.judul}</p><div style="height:140px; background:#FDECEA; color:#C62828; font-weight:800; display:flex; align-items:center; justify-content:center; border-radius:15px; border:2px dashed #F8D7DA;">[Player Video]</div></div>`;
     });
     document.getElementById('containerVideo').innerHTML = htmlVideo;
@@ -255,8 +284,8 @@ function renderPenilaian() {
             <div class="top-buttons" style="margin-bottom:0; gap:5px;">
                 ${actionButtons}
             </div>
-        </div>`;
-    });
+    </div>`;
+});
 }
 
 function bukaModalNilai(id, nama, umpan) {
@@ -303,8 +332,8 @@ function renderTabelEvaluasi() {
         // Kalkulasi dari seluruh riwayat (hadir maupun tidak)
         const riwayatSiswa = dataPenilaian.filter(p => p.id_siswa === siswa.id_siswa);
         const avgTotal = riwayatSiswa.length > 0 
-            ? Math.round(riwayatSiswa.reduce((sum, p) => sum + (Number(p.nilai) || 0), 0) / riwayatSiswa.length) 
-            : 0;
+        ? Math.round(riwayatSiswa.reduce((sum, p) => sum + (Number(p.nilai) || 0), 0) / riwayatSiswa.length) 
+        : 0;
 
         tbody.innerHTML += `<tr>
             <td>${index + 1}</td>
@@ -373,8 +402,8 @@ function bukaRiwayatMateri(id_siswa, id_materi) {
                 <td style="font-weight:${isHadir ? '700' : '900'}">${r.kehadiran}</td>
                 <td style="font-weight:900; color:#8E0000;">${showNilai}</td>
                 <td style="text-align:left; line-height:1.2;">${r.umpan_balik}</td>
-            </tr>`;
-        });
+        </tr>`;
+    });
     }
     document.getElementById('riwayatModal').style.display = 'flex';
 }
