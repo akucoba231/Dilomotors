@@ -16,7 +16,7 @@ const dataMateri = [
                     'Catat waktu yang diperlukan untuk menyelesaikan jarak 100 meter.',
                     'Atlet dengan waktu tercepat dianggap pemenang.'
                 ],
-                video: []
+                video: ["running_satu_480p.mp4"]
             },
             {
                 nama_permainan: 'Lari Kejar',
@@ -45,7 +45,7 @@ const dataMateri = [
                     'Pemain harus berlari zig-zag menghindari atau melintasi setiap cone.',
                     'Waktu tercepat yang berhasil menyelesaikan rintangan zig-zag dengan baik adalah pemenang.'
                 ],
-                video: []
+                video: ["lari_tiga_480p.mp4"]
             }
         ]
     },
@@ -164,7 +164,7 @@ const dataMateri = [
                     'Setiap pemain bertolak dengan dua kaki dan berusaha untuk melompat sejauh mungkin.',
                     'Ukur jarak lompatan dari garis start hingga tempat pendaratan pertama kali. Pemain dengan lompatan terjauh, memenangkan permainan.'
                 ],
-                video: []
+                video: ["jumping_satu_480p.mp4"]
             },
             {
                 nama_permainan: 'Lompat Jauh Berurutan',
@@ -178,7 +178,7 @@ const dataMateri = [
                     'Pemain melakukan lompatan dengan dua kaki, dan kemudian melakukan lompatan berturut-turut tanpa berhenti.',
                     'Ukur jarak lompatan pertama dan berikan kesempatan untuk lompatan berikutnya. Pemain yang melompati jarak terjauh, menjadi pemenang.'
                 ],
-                video: []
+                video: ["jumping_dua_480p.mp4"]
             },
             {
                 nama_permainan: 'Lompat Jauh dengan Tali',
