@@ -193,7 +193,7 @@ const dataMateri = [
                     'Setelah setiap lompatan, tali diangkat sedikit lebih tinggi untuk tantangan yang lebih besar.',
                     'Pemain yang berhasil melompati semua tingkat tali dengan lompatan terjauh, menjadi pemenang.'
                 ],
-                video: []
+                video: ["melompat_tiga_720p.mp4"]
             }
         ]
     },
@@ -213,7 +213,7 @@ const dataMateri = [
                     'Setiap pemain diminta untuk melakukan skip (langkah dan lompat bergantian) menuju garis finish.',
                     'Pemain yang berhasil sampai di garis finish terlebih dahulu dengan teknik skip yang tepat, memenangkan lomba.'
                 ],
-                video: []
+                video: ["skipping_satu_720p.mp4"]
             },
             {
                 nama_permainan: 'Skip Relay (Estafet Skip)',
