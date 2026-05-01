@@ -31,7 +31,7 @@ const dataMateri = [
                     'Setiap orang yang tertangkap oleh pengejar harus keluar dari permainan.',
                     'Pemenang adalah kelompok yang berhasil menghindari pengejar selama waktu tertentu.'
                 ],
-                video: []
+                video: ["lari_dua_720p.mp4"]
             },
             {
                 nama_permainan: 'Lari Zig-Zag',
