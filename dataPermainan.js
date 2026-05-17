@@ -45,7 +45,7 @@ const dataMateri = [
                     'Pemain harus berlari zig-zag menghindari atau melintasi setiap cone.',
                     'Waktu tercepat yang berhasil menyelesaikan rintangan zig-zag dengan baik adalah pemenang.'
                 ],
-                video: ["lari_tiga_480p.mp4"]
+                video: ["lari_tiga.mp4"]
             }
         ]
     },
@@ -260,7 +260,7 @@ const dataMateri = [
                     'Guru berdiri di depan kelas lalu memberi aba-aba (misalnya: "slide ke kanan").',
                     'Siswa merespons instruksi lalu bergerak dengan teknik slide sambil menjaga jarak antarteman.'
                 ],
-                video: []
+                video: ["slide_satu.mp4"]
             },
             {
                 nama_permainan: '"Lines" / Geser ke Garis',
