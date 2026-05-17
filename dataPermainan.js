@@ -275,7 +275,7 @@ const dataMateri = [
                     'Siswa bergerak melakukan semua perpindahan tersebut dengan teknik slide.',
                     'Guru dapat memberikan variasi putaran (contoh: putaran 1 slide kanan, putaran 2 slide kiri, putaran 3 cepat-lambat).'
                 ],
-                video: []
+                video: ["slide_dua.mp4"]
             },
             {
                 nama_permainan: 'Slide Tag (Kejaran Menggeser)',
