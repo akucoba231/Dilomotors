@@ -290,7 +290,7 @@ const dataMateri = [
                     'Pemain yang dikejar akan bertahan selama mungkin tanpa tertangkap oleh pengejar.',
                     'Pemenang adalah pemain yang bertahan paling lama tanpa tertangkap.'
                 ],
-                video: []
+                video: ["slide_tiga.mp4"]
             }
         ]
     }
