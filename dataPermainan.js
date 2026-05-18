@@ -80,7 +80,7 @@ const dataMateri = [
                     'Setelah sampai di titik tersebut, peserta pertama menyentuh temannya sebagai peserta berikutnya.',
                     'Tim yang lebih cepat menyelesaikan estafet dengan benar, memenangkan permainan.'
                 ],
-                video: []
+                video: ["gallop_dua.mp4"]
             },
             {
                 nama_permainan: 'Gallop Zigzag',
