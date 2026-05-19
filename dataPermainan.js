@@ -94,7 +94,7 @@ const dataMateri = [
                     'Pemain diminta untuk berlari menggunakan teknik gallop sambil mengikuti pola zigzag yang sudah disiapkan.',
                     'Pemain yang dapat menyelesaikan jalur zigzag dengan benar dan tepat waktu, menjadi pemenangnya.'
                 ],
-                video: []
+                video: ["hop_zig-zag.mp4"]
             }
         ]
     },
