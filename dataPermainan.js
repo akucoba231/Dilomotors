@@ -241,7 +241,7 @@ const dataMateri = [
                     'Pemain diminta untuk melakukan skip mengikuti jalur zigzag yang telah ditentukan.',
                     'Pemain yang dapat menyelesaikan jalur zigzag dengan tepat dan cepat, menjadi pemenang.'
                 ],
-                video: []
+                video: ["skip_tiga.mp4"]
             }
         ]
     },
