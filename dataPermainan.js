@@ -115,7 +115,7 @@ const dataMateri = [
                     'Pemain yang dapat menyelesaikan dengan kaki yang sama tanpa jatuh, menjadi pemenangnya.',
                     'Ulangi permainan dengan kaki yang berbeda.'
                 ],
-                video: []
+                video: ["hop_satu.mp4"]
             },
             {
                 nama_permainan: 'Hop, Skip, Jump Relay (Estafet Lompat)',
