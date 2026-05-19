@@ -227,7 +227,7 @@ const dataMateri = [
                     'Setiap pemain harus melakukan skip sejauh 10 meter dan menyentuh temannya sebagai tanda estafet kepada pemain berikutnya.',
                     'Tim yang lebih cepat menyelesaikan estafet dengan menggunakan teknik skip yang benar, memenangkan permainan.'
                 ],
-                video: []
+                video: ["skip_dua.mp4"]
             },
             {
                 nama_permainan: 'Skip Zigzag',
