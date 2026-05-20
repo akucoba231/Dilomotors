@@ -129,7 +129,7 @@ const dataMateri = [
                     'Setiap peserta harus melompat satu kaki sejauh 5 meter dan menyentuh temannya sebagai estafet kepada teman satu tim.',
                     'Tim yang dapat menyelesaikan seluruh estafet lebih cepat dengan teknik yang benar, menjadi pemenang.'
                 ],
-                video: []
+                video: ["hop_relay.mp4"]
             },
             {
                 nama_permainan: 'Hopscotch (Gambar Karet)',
