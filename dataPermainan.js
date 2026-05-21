@@ -144,7 +144,7 @@ const dataMateri = [
                     'Pemain harus mengikuti pola yang sudah digambar tanpa jatuh atau menginjak garis.',
                     'Pemain yang berhasil menyelesaikan pola tanpa kesalahan, menjadi pemenang.'
                 ],
-                video: []
+                video: ["hop_tiga.mp4"]
             }
         ]
     },
