@@ -492,7 +492,7 @@ function renderPenilaian() {
     const container = document.getElementById('listPenilaian'); container.innerHTML = '';
     
     if(dataSiswa.length <= 0 || !kelasAktifSesiIni){
-        container.innerHTML = `<div class="illustration-area"><img class="login-icon" src="assets/empty.png" alt="aktor-siswa-kosong"></div><p class="kembali" style="color:#4A4A4A; cursor:default;">Data siswa / kelas belum siap</p><button class="btn-warning" onclick="nav('page-absen')">Kembali ke Absensi</button>`;
+        container.innerHTML = `<div class="illustration-area"><img class="login-icon" src="assets/empty.png" alt="aktor-siswa-kosong"></div><p class="kembali" style="color:#fff; cursor:default; text-shadow: 2px 2px #000;">Data siswa / kelas belum siap</p><button class="btn-warning" onclick="nav('page-absen')">Kembali ke Absensi</button>`;
         return;
     }
 
