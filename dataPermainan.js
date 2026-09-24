@@ -65,7 +65,7 @@ const dataMateri = [
                     'Setiap peserta diminta untuk melakukan gallop dengan kaki kanan memimpin, kemudian kaki kiri mengikuti.',
                     'Pemain yang pertama kali sampai di garis finish dengan teknik gallop yang tepat, memenangkan permainan.'
                 ],
-                video: ["gallop_satu.mp4"]
+                video: ["gallop_1.mp4"]
             },
             {
                 nama_permainan: 'Gallop Relay (Estafet Gallop)',
@@ -80,7 +80,7 @@ const dataMateri = [
                     'Setelah sampai di titik tersebut, peserta pertama menyentuh temannya sebagai peserta berikutnya.',
                     'Tim yang lebih cepat menyelesaikan estafet dengan benar, memenangkan permainan.'
                 ],
-                video: ["gallop_dua.mp4"]
+                video: ["gallop_2.mp4"]
             },
             {
                 nama_permainan: 'Gallop Zigzag',
