@@ -3,8 +3,8 @@ const APP_CONFIG = {
     ownerName: "Diding Fakhrudin, S. Pd",
     storagePrefix: "dilo",
     materiPrefix: "L",
-    assetPath: "../Dilomotors-main/assets/",
-    videoPath: "../Dilomotors-main/video/",
+    assetPath: "./assets/",
+    videoPath: "./video/",
     colors: {
         primary: "#C62828",
         primaryLight: "#EF5350",
