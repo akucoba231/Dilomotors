@@ -13,7 +13,8 @@ const APP_CONFIG = {
         btnShadow: "#AD1F1F"
     },
     wordartGradient: "linear-gradient(90deg, #EF5350, #8E0000)",
-    tagline: "Locomotor Motor Skills"
+    tagline: "Locomotor Motor Skills",
+    tagline_id: "Lokomotor"
 };
 
 const dataMateri = [
