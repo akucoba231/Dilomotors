@@ -332,3 +332,319 @@ const dataMateri = [
         ]
     }
 ];
+
+const dataMateri_EN = [
+    {
+        id_materi: 'L1',
+        nama_materi: 'Running',
+        permainan: [
+            {
+                nama_permainan: '100-Meter Dash',
+                instruksi: [
+                    'The 100-meter dash is a sprinting exercise aimed at measuring an athlete\'s maximum speed over a short distance.',
+                    'This game can be played individually or competitively with friends.'
+                ],
+                tujuan: 'Improve running speed and sprinting technique. Measure running ability over a short period of time.',
+                langkah: [
+                    'Set a start and finish line 100 meters apart.',
+                    'Each participant sprints from the start line to the finish line.',
+                    'Record the time taken to complete the 100-meter distance.',
+                    'The athlete with the fastest time is declared the winner.'
+                ],
+                video: ["running_satu_480p.mp4"],
+                level: "Easy"
+            },
+            {
+                nama_permainan: 'Chase Run',
+                instruksi: [
+                    'Chase run is a game involving two groups: one group acts as the chasers and the other acts as the runners.',
+                    'The chased group must run and evade to avoid being caught by the chasers.'
+                ],
+                tujuan: 'Improve endurance and running speed. Train agility and evasion skills.',
+                langkah: [
+                    'Divide participants into two groups: one as the chasers and one as the runners.',
+                    'The runners must run to evade the chasers for a set period of time.',
+                    'Anyone caught by the chasers is out of the game.',
+                    'The winning group is the one that successfully evades the chasers for the set duration.'
+                ],
+                video: ["berlari_dua.mp4"],
+                level: "Medium"
+            },
+            {
+                nama_permainan: 'Zig-Zag Run',
+                instruksi: [
+                    'Zig-zag run is a running game with obstacles arranged in a zig-zag pattern.',
+                    'Players must run to avoid obstacles or follow the zig-zag path as quickly as possible.'
+                ],
+                tujuan: 'Improve agility and movement coordination. Train body balance while running in a zig-zag pattern.',
+                langkah: [
+                    'Set the start and finish lines, and place cones or poles to form a zig-zag path.',
+                    'Players must run in a zig-zag pattern around or through each cone.',
+                    'The fastest time to properly complete the zig-zag course wins.'
+                ],
+                video: ["lari_tiga.mp4"],
+                level: "Hard"
+            }
+        ]
+    },
+    {
+        id_materi: 'L2',
+        nama_materi: 'Galloping',
+        permainan: [
+            {
+                nama_permainan: 'Gallop Race',
+                instruksi: [
+                    'This game involves participants racing using a galloping motion (stepping with one foot leading and the back foot following).',
+                    'Players must perform the galloping technique properly to reach the finish line.'
+                ],
+                tujuan: 'Improve coordination between the right and left feet. Train balance and stepping accuracy.',
+                langkah: [
+                    'Set the start and finish lines.',
+                    'Each participant is asked to gallop with the right foot leading and the left foot following.',
+                    'The first player to reach the finish line using the correct galloping technique wins the game.'
+                ],
+                video: ["gallop_1.mp4"],
+                level: "Easy"
+            },
+            {
+                nama_permainan: 'Gallop Relay',
+                instruksi: [
+                    'This game is a variation of a relay race that uses the galloping technique.',
+                    'Each participant must gallop and then tag their teammate to pass the turn.'
+                ],
+                tujuan: 'Improve agility and team coordination. Teach teamwork and communication among team members.',
+                langkah: [
+                    'Divide participants into two teams.',
+                    'Each team moves toward a designated point using the galloping technique.',
+                    'Upon reaching the point, the first participant tags the next teammate.',
+                    'The team that finishes the relay faster using the correct technique wins the game.'
+                ],
+                video: ["gallop_2.mp4"],
+                level: "Medium"
+            },
+            {
+                nama_permainan: 'Zig-Zag Gallop',
+                instruksi: [
+                    'This game requires participants to gallop along a zig-zag path.',
+                    'The galloping technique is used to improve balance and the ability to change direction quickly.'
+                ],
+                tujuan: 'Improve coordination and balance skills while moving in a zig-zag pattern. Train agility in changing direction while moving.',
+                langkah: [
+                    'Set up a zig-zag path using cones or poles.',
+                    'Players are asked to move using the galloping technique while following the prepared zig-zag pattern.',
+                    'The player who completes the zig-zag path accurately and in the fastest time wins.'
+                ],
+                video: ["gallop_3.mp4"],
+                level: "Hard"
+            }
+        ]
+    },
+    {
+        id_materi: 'L3',
+        nama_materi: 'Hopping',
+        permainan: [
+            {
+                nama_permainan: 'Hop on One Leg',
+                instruksi: [
+                    'This game requires players to hop on one leg along a predetermined path.',
+                    'The player who completes the path properly without falling wins.'
+                ],
+                tujuan: 'Train body balance and leg strength. Improve coordination and physical endurance.',
+                langkah: [
+                    'Set a straight path 5 meters long.',
+                    'Players are asked to hop on one leg from the starting point to the finish point.',
+                    'The player who finishes using the same leg without falling wins.',
+                    'Repeat the game using the other leg.'
+                ],
+                video: ["hop_satu.mp4"],
+                level: "Easy"
+            },
+            {
+                nama_permainan: 'Hop, Skip, Jump Relay',
+                instruksi: [
+                    'This game combines one-legged hopping with a relay format.',
+                    'Each player must hop on one leg and then tag their teammate to pass the turn to the next team member.'
+                ],
+                tujuan: 'Improve the ability to hop on one leg quickly. Train teamwork and coordination within a team.',
+                langkah: [
+                    'Divide players into two teams.',
+                    'Each participant must hop on one leg for 5 meters and tag their teammate as a relay handoff.',
+                    'The team that completes the entire relay faster with proper technique wins.'
+                ],
+                video: ["hop_relay.mp4"],
+                level: "Medium"
+            },
+            {
+                nama_permainan: 'Hopscotch',
+                instruksi: [
+                    'Hopscotch is a traditional game that requires players to hop from one square to another on one leg.',
+                    'Players must follow a specific pattern drawn on the ground.'
+                ],
+                tujuan: 'Train body balance by hopping on one leg. Develop gross motor skills and agility.',
+                langkah: [
+                    'Draw a hopscotch pattern consisting of small squares on the floor or ground.',
+                    'Players begin hopping from one square to the next on one leg.',
+                    'Players must follow the drawn pattern without falling or stepping on the lines.',
+                    'The player who successfully completes the pattern without any mistakes wins.'
+                ],
+                video: ["hop_tiga.mp4"],
+                level: "Hard"
+            }
+        ]
+    },
+    {
+        id_materi: 'L4',
+        nama_materi: 'Jumping',
+        permainan: [
+            {
+                nama_permainan: 'Two-Footed Long Jump',
+                instruksi: [
+                    'This game involves players jumping as far as possible using both feet, taking off from the same spot and landing with both feet together.',
+                    'This game tests leg strength as well as balance upon landing.'
+                ],
+                tujuan: 'Improve leg strength and endurance. Train coordination and body balance when landing.',
+                langkah: [
+                    'Mark the start and finish lines for the jump distance.',
+                    'Each player takes off with both feet and tries to jump as far as possible.',
+                    'Measure the jump distance from the start line to the first landing spot. The player with the longest jump wins.'
+                ],
+                video: ["jumping_satu_480p.mp4"],
+                level: "Easy"
+            },
+            {
+                nama_permainan: 'Consecutive Long Jumps',
+                instruksi: [
+                    'This game requires players to perform consecutive jumps in a single attempt.',
+                    'Players take off with both feet and try to achieve a farther jump distance each time.'
+                ],
+                tujuan: 'Improve the ability to perform repetitive long jumps. Develop coordination between both legs and body balance.',
+                langkah: [
+                    'Mark the start and target lines.',
+                    'Players jump with both feet and immediately perform consecutive jumps without stopping.',
+                    'Measure the distance of the first jump and allow subsequent jumps. The player who covers the farthest distance wins.'
+                ],
+                video: ["jumping_dua_480p.mp4"],
+                level: "Medium"
+            },
+            {
+                nama_permainan: 'Rope Long Jump',
+                instruksi: [
+                    'In this game, players must jump as far as possible using both feet to clear a rope stretched parallel to the ground.',
+                    'The rope is raised slightly higher after each round of jumping.'
+                ],
+                tujuan: 'Improve leg coordination and agility. Train leg strength to propel the body farther.',
+                langkah: [
+                    'Prepare a long rope to be jumped over.',
+                    'Players begin with a two-footed jump to clear the rope stretched parallel to the ground.',
+                    'After each round, the rope is raised slightly higher for a greater challenge.',
+                    'The player who clears all rope levels with the farthest jump wins.'
+                ],
+                video: ["melompat_tiga_720p.mp4"],
+                level: "Hard"
+            }
+        ]
+    },
+    {
+        id_materi: 'L5',
+        nama_materi: 'Skipping',
+        permainan: [
+            {
+                nama_permainan: 'Skip Race',
+                instruksi: [
+                    'This game involves participants racing using the skipping technique.',
+                    'Skipping is a rhythmic step-and-hop movement performed with alternating feet.'
+                ],
+                tujuan: 'Improve coordination between the right and left feet. Train agility and precision in movement.',
+                langkah: [
+                    'Set the start and finish lines.',
+                    'Each player is asked to skip (alternating step and hop) toward the finish line.',
+                    'The player who reaches the finish line first using the correct skipping technique wins the race.'
+                ],
+                video: ["skipping_satu_720p.mp4"],
+                level: "Easy"
+            },
+            {
+                nama_permainan: 'Skip Relay',
+                instruksi: [
+                    'This game is a variation of a relay race where players must move using the skipping technique.',
+                    'Players must tag their teammate as a relay handoff to the next player.'
+                ],
+                tujuan: 'Train team coordination and cooperation. Develop skipping skills and physical endurance.',
+                langkah: [
+                    'Divide players into two teams.',
+                    'Each player must skip for 10 meters and tag their teammate to pass the turn.',
+                    'The team that finishes the relay faster using the correct skipping technique wins.'
+                ],
+                video: ["skip_dua.mp4"],
+                level: "Medium"
+            },
+            {
+                nama_permainan: 'Zig-Zag Skip',
+                instruksi: [
+                    'This game involves the skipping technique where players hop with alternating feet.',
+                    'Skipping is performed while following a predetermined zig-zag pattern.'
+                ],
+                tujuan: 'Develop body coordination while moving in a zig-zag pattern. Improve agility and dexterity in alternating foot movements.',
+                langkah: [
+                    'Set up a zig-zag path using cones or other markers.',
+                    'Players are asked to skip along the designated zig-zag path.',
+                    'The player who completes the zig-zag path accurately and quickly wins.'
+                ],
+                video: ["skip_tiga.mp4"],
+                level: "Hard"
+            }
+        ]
+    },
+    {
+        id_materi: 'L6',
+        nama_materi: 'Sliding',
+        permainan: [
+            {
+                nama_permainan: '"I See" Slide Version',
+                instruksi: [
+                    'An equipment-free game activity to practice locomotor movement in an open space.',
+                    'The teacher gives cues for students to slide in a certain direction, and students move while maintaining safe spacing from classmates.'
+                ],
+                tujuan: 'Train movement direction, spatial awareness, and the ability to slide properly without colliding.',
+                langkah: [
+                    'The teacher stands in front of the class and gives a cue (for example: "slide to the right").',
+                    'Students respond to the instruction by moving with the sliding technique while maintaining distance from each other.'
+                ],
+                video: ["slide_satu.mp4"],
+                level: "Easy"
+            },
+            {
+                nama_permainan: '"Lines" / Slide to the Line',
+                instruksi: [
+                    'An equipment-free game that requires moving from one point to another point or court line.',
+                    'All movements must be performed specifically using the sliding technique.'
+                ],
+                tujuan: 'Train sliding transition skills using variations in distance, rounds, and speed.',
+                langkah: [
+                    'Students line up at the starting line.',
+                    'The teacher gives distance instructions, such as to the first line, the center line, and back again.',
+                    'Students perform all transitions using the sliding technique.',
+                    'The teacher can add round variations (e.g., round 1 slide right, round 2 slide left, round 3 fast-slow).'
+                ],
+                video: ["slide_dua.mp4"],
+                level: "Medium"
+            },
+            {
+                nama_permainan: 'Slide Tag',
+                instruksi: [
+                    'A game of tag where one player acts as the chaser.',
+                    'The chaser must pursue other players strictly using the sideways sliding technique.'
+                ],
+                tujuan: 'Develop agility, balance, and lateral movement skills. Improve quick reactions and foot coordination.',
+                langkah: [
+                    'Define the playing area and choose one player as the chaser.',
+                    'The runners must run away, while the chaser moves strictly by sliding sideways to catch them.',
+                    'The runners try to last as long as possible without getting tagged by the chaser.',
+                    'The winner is the player who lasts the longest without being caught.'
+                ],
+                video: ["slide_tiga.mp4"],
+                level: "Hard"
+            }
+        ]
+    }
+];
