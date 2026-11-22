@@ -20,7 +20,7 @@ const APP_CONFIG = {
 const dataMateri = [
     {
         id_materi: 'L1',
-        nama_materi: 'Running',
+        nama_materi: 'Berlari',
         permainan: [
             {
                 nama_permainan: 'Lari 100 Meter',
@@ -73,7 +73,7 @@ const dataMateri = [
     },
     {
         id_materi: 'L2',
-        nama_materi: 'Galloping',
+        nama_materi: 'Berderap',
         permainan: [
             {
                 nama_permainan: 'Lomba Gallop',
@@ -125,7 +125,7 @@ const dataMateri = [
     },
     {
         id_materi: 'L3',
-        nama_materi: 'Hopping',
+        nama_materi: 'Berjingkat',
         permainan: [
             {
                 nama_permainan: 'Hop on One Leg (Melompat Satu Kaki)',
@@ -178,7 +178,7 @@ const dataMateri = [
     },
     {
         id_materi: 'L4',
-        nama_materi: 'Jumping',
+        nama_materi: 'Melompat',
         permainan: [
             {
                 nama_permainan: 'Lompat Jauh dengan Dua Kaki',
@@ -230,7 +230,7 @@ const dataMateri = [
     },
     {
         id_materi: 'L5',
-        nama_materi: 'Skipping',
+        nama_materi: 'Berjingkrak',
         permainan: [
             {
                 nama_permainan: 'Lomba Skip',
@@ -281,7 +281,7 @@ const dataMateri = [
     },
     {
         id_materi: 'L6',
-        nama_materi: 'Sliding',
+        nama_materi: 'Meluncur',
         permainan: [
             {
                 nama_permainan: '"I See" Versi Slide',
